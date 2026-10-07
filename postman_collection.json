@@ -1,0 +1,69 @@
+{
+  "info": {
+    "name": "Lawyer Corruption RAG Backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:5000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/health"
+      }
+    },
+    {
+      "name": "Documents",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/documents"
+      }
+    },
+    {
+      "name": "Ingest Documents",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/ingest"
+      }
+    },
+    {
+      "name": "Chat",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What does the document say about corruption allegations?\"\n}"
+        },
+        "url": "{{base_url}}/chat"
+      }
+    },
+    {
+      "name": "Evaluate",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What does the document say about corruption allegations?\",\n  \"expected_answer\": \"The document states that the allegation concerns...\"\n}"
+        },
+        "url": "{{base_url}}/evaluate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "What is the Prevention of Corruption Act, 1988?",
+    "expected_answer": "The Prevention of Corruption Act, 1988 is an Indian law enacted to prevent corruption and deal with corruption-related offences involving public servants.",
+    "key_facts": [
+      "The Act was enacted in 1988.",
+      "The Act deals with prevention of corruption.",
+      "The Act deals with corruption-related offences.",
+      "The Act concerns offences involving public servants."
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of the Prevention of Corruption Act, 1988?",
+    "expected_answer": "The purpose of the Prevention of Corruption Act, 1988 is to prevent corruption and address corruption-related offences.",
+    "key_facts": [
+      "The Act aims to prevent corruption.",
+      "The Act addresses corruption-related offences."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Who is considered a public servant under the Prevention of Corruption Act?",
+    "expected_answer": "A public servant is a person who falls within the statutory definition of public servant under the Act.",
+    "key_facts": [
+      "The Act contains a statutory definition of public servant.",
+      "The definition determines who is treated as a public servant."
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What type of conduct is addressed by the Prevention of Corruption Act?",
+    "expected_answer": "The Act addresses corruption-related conduct and offences involving public servants.",
+    "key_facts": [
+      "The Act addresses corruption-related conduct.",
+      "The Act covers offences involving public servants."
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Why is the Prevention of Corruption Act important?",
+    "expected_answer": "The Prevention of Corruption Act is important because it provides a legal framework for addressing corruption and corruption-related offences involving public servants.",
+    "key_facts": [
+      "The Act provides a legal framework for addressing corruption.",
+      "The Act deals with corruption-related offences.",
+      "Public servants are relevant to the offences covered by the Act."
+    ]
+  }
+]
